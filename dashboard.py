@@ -11,7 +11,7 @@ import io
 from babel.numbers import format_currency
 
 # Unduh file .zip dari GitHub 
-url = 'https://github.com/the-first-lady/E-commerce_publik/raw/main/all_data_ecommerce.zip' 
+url = 'https://github.com/imjustrahmat9/BELAJAR-ANALISIS-DATA-PYTHON/blob/main/all_data_ecommerce.zip' 
 response = requests.get(url) 
 with zipfile.ZipFile(io.BytesIO(response.content)) as z: 
     z.extractall() 
